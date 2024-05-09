@@ -3,3 +3,5 @@ This early version was used to develop and test animations.<br>
 The Helios Core has an updated version of this.
 
 [Website](https://helios-project.netlify.app/)
+
+gplv3
