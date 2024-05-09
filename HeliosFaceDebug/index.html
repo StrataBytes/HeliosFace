@@ -1,0 +1,44 @@
+<!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.6.1/dist/gsap.min.js"></script> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.6.1/dist/gsap.min.js"></script>
+</head>
+<body> 
+
+    <div id="emotion-control">
+        <p>Debug Emotion Control Panel</p>
+        <button onclick="changeEmotion('happy')">Happy</button>
+        <button onclick="changeEmotion('neutral')">Neutral/Annoyed</button>
+        <button onclick="changeEmotion('sad')">Sad</button>
+        <button onclick="changeEmotion('veryHappy')">Very Happy</button>
+        <button onclick="surprisedAnimation()">Surprised</button>
+        <button onclick="thinkingAnimation()">Thinking</button>
+        <p>Debug Animation Control Panel</p>
+        <button onclick="nodAnimation()">Nod</button>
+        <button onclick="nod2xAnimation()">Nod 2x</button>
+        <button onclick="lookLeftAnimation()">Look Left</button>
+        <button onclick="lookRightAnimation()">Look Right</button>
+
+
+        <p>Other</p>
+        <button id="toggle-bg-btn">Toggle Background Color</button>
+    </div>
+
+
+    <div id="face-container">
+        <div id="head" class="circle"></div>
+        <div id="left-eye" class="eye"></div>
+        <div id="right-eye" class="eye"></div>
+        <div id="mouth-container">
+            <div id="mouth" class="mouth"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
